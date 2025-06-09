@@ -50,6 +50,12 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>net.bytebuddy</groupId>
+        <artifactId>byte-buddy</artifactId>
+        <version>1.14.13</version> <!-- versión compatible con Java 21 -->
+        <scope>test</scope>
+      </dependency>
       <!-- App servers -->
       <dependency>
         <groupId>org.jboss.spec</groupId>
